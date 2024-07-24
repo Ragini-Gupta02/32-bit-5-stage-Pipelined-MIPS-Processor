@@ -6,9 +6,7 @@ module processor_tb;
 reg clk1, clk2;
 integer k;
 
-processor mips (clk1, clk2);
-
-processor dut(.clk1(clk1), .clk2(clk2));
+processor mips(.clk1(clk1), .clk2(clk2));
 
 initial 
 begin 

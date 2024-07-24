@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-//test bench to load a word stored in memmory, perform operation and store it in new memory location
+//test bench to load a word stored in memory, perform operation and store it in new memory location
 
 module processor_tb;
 reg clk1, clk2;
